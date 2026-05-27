@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InAmigos foundation</title>
+    <style>
+        :root {
+    --primary-color: #1497cf;
+    --accent-color: #1062dd;
+    --text-color: #050000;
+    --bg-color: #050c0ae8;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: var(--text-color);
+    
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpo8JWuOXNPKw5ff_Qc5rfdRJZJAk6QGWjwA&s");
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+header {
+    background: var(--primary-color);
+    color: #000000;
+    padding: 3rem 1rem;
+}
+
+.header-container {
+    color: #000000;
+    display: flex;
+    align-items: center;       
+    justify-content: center;   
+    gap: 20px;                 
+    max-width: 1100px;
+    margin: 0 auto;
+    flex-wrap: wrap;           
+    text-align: center;
+}
+
+.logo {
+    width: 75px;            
+    height: 75px;
+    object-fit: cover;
+    border-radius: 50%;        
+    border: 3px solid #fff;    
+}
+
+.header-text h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+}
+
+.header-text p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+    margin: 5px 0 0 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    overflow: hidden;
+    padding: 2rem 0;
+}
+
+h2 {
+    color: var(--primary-color);
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+.intro-section{
+    background: #fff;
+    padding: 2rem 1rem;
+    border-radius: 6px;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.05);
+    margin-bottom: 3rem;
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.intro-section p{
+    text-align: center;
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0;
+}
+.intro-section ol{
+    text-align: left;
+}
+ .cta-section {
+    text-align: center;
+    background: #fff;
+    padding: 3rem 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    margin-bottom: 3rem;
+ }
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+.project-card {
+    background: #fff;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease;
+
+}
+.project-card:hover {
+    transform: translateY(-5px);
+}
+.project-img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.project-content {
+    padding: 1.5rem;
+}
+.impact-tag {
+    display: inline-block;
+    background: #fff;
+    color: var(--accent-color);
+    padding: 0.4rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.project-content h3 {
+    margin-top: 0;
+    color: var(--primary-color);
+}
+
+
+.btn-group {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
+}
+.btn {
+    display: inline-block;
+    background: var(--accent-color);
+    color: #fff;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s, transform 0.2s;
+}
+.btn:hover {
+    background: #219150;
+    transform: scale(1.05);
+}
+.btn-secondary {
+    background: var(--primary-color);
+}
+.btn-secondary:hover {
+    background: #f10635e8;
+}
+
+footer {
+    background: #0b23d3;
+    color: #f6f3f3;
+    text-align: center;
+    padding: 1.5rem 0;
+    margin-top: 2rem;
+}
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="header-container">
+        <a href="https://imgbb.com/"><img src="https://i.ibb.co/MxM5KMZD/logo.png" alt="NGO Logo" class="logo"></a> 
+            
+            <div class="header-text">
+                <h1>InAmigos foundation</h1>
+                <p>Uniting Minds for change</p>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        
+        <section class="intro-section">
+            <h2>INTRODUCTION</h2>
+            <p>Welcome to <strong>InAmigos foundation</strong>, founded on September 23, 2020, by Mr. Govind Shukla (Founder & CEO), is a Section 8 registered non-profit organization committed to creating lasting social impact. With its base in Chhattisgarh, the foundation operates across India, addressing critical societal issues through a network of dedicated professionals and volunteers.</p>
+                <ol><strong>Our Credentials & Recognitions:</strong>
+                    <li>Registered under Section 8 – Licensed by the Central Government</li>
+                    <li>80G & 12A Certified – Ensuring transparency, accountability, and tax exemptions for donors</li>
+                    <li>CSR-1 Registered – Eligible for corporate CSR partnerships</li>
+                    <li>NITI Aayog Registered – Aligning with national development goals</li>
+                    <li>IAF ISO 9001:2015 Certified – Committed to maintaining high-quality standards</li>
+                </ol>
+        </section>
+
+        <section id="projects">
+            <h2>Our Ongoing Projects</h2>
+            <div class="projects-grid">
+                
+                <div class="project-card">
+                    <img src="data:image/jpeg;base64,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" class="project-img">
+                    <div class="project-content">
+                        <span class="impact-tag"></span>
+                        <h3>Project Seva</h3>
+                        <p><strong>Project SEVA</strong> is dedicated to alleviating hunger and clothing deprivation among underprivileged communities, daily-wage workers, the homeless, and abandoned elderly individuals across India</p>
+                        <p>Over 50,000+ meals and clothing distributed to the underprivileged under <strong>Project SEVA</strong></p>
+                            <ul>
+                                <li><strong>Food Distribution Drives:</strong> Volunteers regularly distribute freshly prepared, hot meals to vulnerable populations who are uncertain of their next meal.The project has successfully distributed over 50,000+ meals, providing physical nourishment and emotional comfort.</li>
+                                <li><strong>Clothing Drives:</strong>  Project SEWA collects, sorts, and distributes clean, usable clothing to those in need.Special drives are conducted during extreme weather conditions (such as monsoons and winters) to provide blankets, sweaters, and warm garments.</li>
+                            </ul>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="https://inamigosfoundation.org.in/public/storage/post/1738237826.jpg"  class="project-img">
+                    <div class="project-content">
+                        <span class="impact-tag"></span>
+                        <h3>Project Jeev</h3>
+                        <p>The word Jeev in Hindi means ,<strong>animals</strong>. Animals have always co-existed with humans, yet over time, humans have often forgotten their responsibility toward these speech-deprived creatures. Just because animals cannot speak and express their needs, they are sometimes taken for granted.</p>
+                        <p><strong>Project Jeev</strong> was initiated with the idea of helping animals who have nowhere to turn. It serves as a ray of hope for animals whose future seemed bleak. Through this project, we aim to help as many stray dogs, cats, cows, and other animals as possible. This includes building makeshift shelters, feeding them, and sometimes even finding them new homes.</p>
+                             <ul>
+                                <li><strong>Direct Feeding: </strong>Volunteers and community members provide regular meals (like safe dog food, rotis, or rice) to stray dogs, cats, and cows, ensuring fewer animals go hungry.</li>
+                                <li><strong>Rescue & Shelter: </strong>The project provides safe, makeshift shelters to protect vulnerable animals from extreme weather.</li>
+                            </ul>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img src="https://inamigosfoundation.org.in/public/storage/post/1738237659.jpeg"  class="project-img">
+                    <div class="project-content">
+                        <span class="impact-tag"></span>
+                        <h3>BachpanShala</h3>
+                        <p>Childhood, or Bachpan, is often considered the most formative phase of life. It is a time when the foundation for the future is laid, dreams are nurtured, and seeds of knowledge and compassion are sown. However, not all children are fortunate enough to experience a carefree and resourceful childhood. Many face challenges such as lack of education, poverty, and neglect, depriving them of the joy and opportunities they rightfully deserve.</p>
+                        <p>At its heart, <strong>BachpanShala</strong> believes every child deserves a nurturing environment, quality education, and the opportunity to dream big. The program is dedicated to providing children from underprivileged communities with: </p>
+                            <ul>
+                                <li><strong>Education:</strong> Creating opportunities for children to learn and grow in a stimulating environment.</li>
+                                <li><strong>Healthcare:</strong> Ensuring children remain healthy and active, free from preventable diseases.</li>
+                                <li><strong>Skill Development:</strong> Encouraging extracurricular activities, arts, and life skills for holistic growth.</li>
+                                <li><strong>Safe Spaces:</strong> Building trust and creating environments where children can express themselves freely.</li>
+                            </ul>
+                    </div>
+                </div>
+
+                 <div class="project-card">
+                    <img src="https://inamigosfoundation.org.in/public/storage/post/1738237839.jpeg"  class="project-img">
+                    <div class="project-content">
+                        <span class="impact-tag"></span>
+                        <h3>Udaan</h3>
+                        <p>In every corner of India, countless women harbor dreams waiting to take flight. Project Udaan provides that opportunity—a movement of empowerment that has already transformed the lives of over 900 women, enabling them to overcome challenges and rewrite their destinies.</p>
+                        <p>At its core,<strong> Udaan</strong> is more than just individual success. It is about creating ripples of change that uplift families, empower communities, and shape a brighter future. With every woman empowered, we move closer to building a society rooted in equality and opportunity</p>
+                            <ul>
+                                <li><strong>Vocational Skill Training:</strong>  Providing hands-on classes in traditional livelihoods like tailoring, stitching, and creating unique handicrafts.</li>
+                                <li><strong>Digital Literacy: </strong>   Training women on basic laptop handling, fundamental computer applications (such as MS Excel), and digital tools to bridge the tech divide.</li>
+                            </ul>
+                    </div>
+                </div>
+
+                 <div class="project-card">
+                    <img src="https://inamigosfoundation.org.in/public/storage/post/1740818641.jpg"  class="project-img">
+                    <div class="project-content">
+                        <span class="impact-tag"></span>
+                        <h3>Project Vikas</h3>
+                        <p>For the past four years, InAmigos Foundation has been committed to empowering young minds through <strong>Project Vikas</strong> ,an initiative that has revolutionized internship opportunities across various domains. With a vision to bridge the gap between education and employability, we have successfully provided 1,000+ internship opportunities, engaged with 100,000+ interns, and onboarded 30,000+ interns into diverse fields. Diverse Internship Opportunities Our extensive internship programs cater to multiple career paths, ensuring students gain hands-on experience in their areas of interest. Some of our most sought-after internships include:  </p>
+                             <ul>
+                                <li><strong>Digital Marketing & Social Media Marketing</strong> – Practical exposure to brand building and online engagement strategies.</li>
+                                <li><strong>Content Writing & Graphic Designing</strong> – Refining creative storytelling and design skills for impactful communication.</li>
+                                <li><strong>HR Internship & Community Management</strong>  – Learning the art of talent acquisition, employee engagement, and team building.</li>
+                             </ul>
+                    </div>
+                </div>
+
+                 <div class="project-card">
+                    <img src="data:image/jpeg;base64,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" class="project-img">
+                    <div class="project-content">
+                        <span class="impact-tag"></span>
+                        <h3>Prakriti</h3>
+                        <p>Under Project Prakriti, InAmigos Foundation is making the most of this season by planting as many saplings as possible. This is the perfect time to give back to nature—and every tree we plant today is a promise for a cleaner, greener tomorrow</p>
+                        <p><strong>Key Aspects of Project Prakriti:</strong> </p>
+                         <ul>
+                                <li><strong>Mass Tree Planting:</strong> – The project has aimed to plant over 20,000 trees to increase green cover.</li>
+                                <li><strong>Environmental Awareness:</strong> – Encourages the public to embrace nature, reduce waste, and participate in plantation drives.</li>
+                                <li><strong>Energy Conservation:</strong>  – Promotes mindful energy consumption ("Save Light") to reduce environmental strain.</li>
+                             </ul>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <h2>Be the Change You Want to See</h2>
+            <p>Our vital work is only possible through the generosity and dedication of people like you. Whether you have time to volunteer, resources to donate, or a voice to share our cause, there is always a place for you here.</p>
+            <div class="btn-group">
+                <a href="#volunteer" class="btn">Join as a Volunteer</a>
+                <a href="#donate" class="btn btn-secondary">Support Our Cause</a>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 InAmigos foundation. All rights reserved. | Contact: Ward No. 5, Gram Post,Sipat Ujwal Nagar,Bilaspur. Chhattisgarh | GMAIL ID:inamigosfoundation@gmail.com</p>
+    </footer>
+
+</body>
+</html>
